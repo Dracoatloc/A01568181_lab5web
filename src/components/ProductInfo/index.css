@@ -1,0 +1,40 @@
+.productInfo {
+    margin: 10px;
+    padding: 10px;
+}
+
+img.largeImage {
+    width: 400px !important;
+    height: 400px !important;   
+}
+
+div.largeImage {
+    box-shadow: none;
+    background-color: #fafafa;
+}
+
+.productLabel {
+    font-weight: bold !important;
+}
+
+.cartButton {
+    box-shadow: none !important;
+    background-color: #3fb562d5 !important;
+    color: #fafafa !important;
+}
+
+.productName {
+    font-size: 3em !important;
+}
+
+.productGrid {
+    flex-grow: 1;
+}
+
+.dollars:before {
+    content:'$'; 
+}
+
+.crossedout {
+    text-decoration: line-through
+}
